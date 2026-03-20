@@ -2,13 +2,12 @@ name: thử nghiệm đọc file Readme
 
 on: 
   push: 
-    braches: {"main"}
- 
-     jobs: 
-thuc_hanh_doc_file:
- runs-on: ubuntu-lastest
+    branches: ["main"]
 
- steps:
+ jobs: 
+     thuc_hanh_doc_file:
+      runs-on: ubuntu-lastest
+      steps:
 -name: Bước 1 - Xin Chào
 run: echo "Hello Hutech" 
 
