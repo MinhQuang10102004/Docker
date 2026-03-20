@@ -1,10 +1,10 @@
 name: thử nghiệm đọc file Readme
 
 on: 
- push: 
- braches: {"main"}
+  push: 
+    braches: {"main"}
  
- jobs: 
+     jobs: 
 thuc_hanh_doc_file:
  runs-on: ubuntu-lastest
 
