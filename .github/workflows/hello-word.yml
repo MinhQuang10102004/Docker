@@ -2,7 +2,7 @@ name: thử nghiệm đọc file Readme
 
 on: 
  push: 
- braches: {"main}
+ braches: {"main"}
  
  jobs: 
 thuc_hanh_doc_file:
